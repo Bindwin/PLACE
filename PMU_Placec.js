@@ -14,7 +14,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             i.src = "https://github.com/Bindwin/PLACE/blob/cb6e60c6c5c7d4bb9abf517be7ac756126a8af3c/PMU.png";
-            i.style = "position: absolute;left: 9;top: 1250;image-rendering: pixelated;width: 64px;height: 64px;";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
             console.log(i);
             return i;
         })())
